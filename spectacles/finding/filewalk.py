@@ -18,7 +18,7 @@ def setup(settings):
         "name": "filewalk", 
         "filewalk": filewalk, 
         "loader": loader, 
-        "action": action, 
+        "action.load_modules": action, 
     }
 
 def lookup_targets(walker, loader, *args, **kwargs):

@@ -6,6 +6,7 @@ README = ""
 CHANGES = ""
 
 requires = [
+    "zope.interface"
     ]
 
 sqlalchemy_requires = [
